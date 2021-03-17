@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+   font-family: sans-serif; 
+}
+.nav{
+    display: flex;
+}
+.nav .form-group{
+    display: inline-flex;
+}
+.nav ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    text-shadow: 2px 2px 5px red;
+}
+.nav ul li{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 25px;
+    margin: 15px;
+}
